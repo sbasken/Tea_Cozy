@@ -32,16 +32,46 @@ nav ul li {
 
 div.banner {
     background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*1jjbntx*_ga*MTk0NDgwMjMzMC4xNjY5NjExMzA2*_ga_3LRZM6TM9L*MTY3NDE0NjQ5NS4xMzMuMS4xNjc0MTQ4ODk5LjQ2LjAuMA..");
-    margin-top: 69px;
+    margin-top: 70px;
     height: 700px;
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
 }
 
+div.banner div {
+    padding: 1px 0;
+}
 
-div.banner h2, h4 {
-    
+#tea {
+    height: 700px;
+    width: 1000px;
+    margin: auto;
+    padding-top: 70px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    padding: 5px;
+}
+
+.card img {
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+    display: block;
+}
+
+.card figcaption {
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+    display: block;
 }
 
 
