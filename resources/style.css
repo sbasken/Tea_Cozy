@@ -9,10 +9,13 @@
 
 header div.container {
     display: flex;
+    width: 98%;
+    position: fixed;
     justify-content: space-between;
     height: 69px;
-    position: fixed;
     top: 0;
+    border-bottom: 1px solid seashell;
+
 }
 
 #logo {
@@ -26,6 +29,21 @@ nav ul li {
     font-size: 22px;
     margin: 0px 10px;
 }
+
+div.banner {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*1jjbntx*_ga*MTk0NDgwMjMzMC4xNjY5NjExMzA2*_ga_3LRZM6TM9L*MTY3NDE0NjQ5NS4xMzMuMS4xNjc0MTQ4ODk5LjQ2LjAuMA..");
+    margin-top: 69px;
+    height: 700px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+div.banner h2, h4 {
+    
+}
+
 
 div.location div.container {
     background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*ugf36e*_ga*MTk0NDgwMjMzMC4xNjY5NjExMzA2*_ga_3LRZM6TM9L*MTY3NDE0NjQ5NS4xMzMuMS4xNjc0MTQ4ODk5LjQ2LjAuMA..");
