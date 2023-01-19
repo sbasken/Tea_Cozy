@@ -1,3 +1,32 @@
+
+* {
+    font-family: Helvetica;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+header div.container {
+    display: flex;
+    justify-content: space-between;
+    height: 69px;
+    position: fixed;
+    top: 0;
+}
+
+#logo {
+    height: 50px;
+    margin: 10px;
+}
+
+nav ul li {
+    display: inline;
+    text-decoration: underline;
+    font-size: 22px;
+    margin: 0px 10px;
+}
+
 div.location div.container {
     background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*ugf36e*_ga*MTk0NDgwMjMzMC4xNjY5NjExMzA2*_ga_3LRZM6TM9L*MTY3NDE0NjQ5NS4xMzMuMS4xNjc0MTQ4ODk5LjQ2LjAuMA..");
 }
