@@ -114,3 +114,14 @@ nav ul li {
     width: 300px;
     margin: 15px 20px;
 }
+
+/* store detail section */
+
+.contact {
+    height: 200px;
+}
+
+/* copyright */
+#copyright {
+    text-align: left;
+}
