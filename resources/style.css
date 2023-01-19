@@ -46,13 +46,15 @@ nav ul li {
     margin-top: 70px;
     height: 700px;
     width: 1200px;
+    display: flex;
+    align-items: center;
 
 }
 
-.banner .content {
-    margin: auto;
+.content {
     background-color: black;
     width: 100%;
+    justify-content: center;
 }
 /* tea section */
 
